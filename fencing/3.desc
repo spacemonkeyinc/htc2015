@@ -1,0 +1,4 @@
+Can they:
+1. read a massive amount of points.  hopefully they stream the points
+2. use a bounding box to quickly reject points
+3. use parallel threads or processes to simultaneouly process many points

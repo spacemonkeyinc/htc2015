@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <!-- counterclockwise -->
+    <path fill="lightblue" d="M10.0,10 l 0,10L 20,20.0l0,-10z"/>
+
+    <!-- points around and outside perimeter -->
+    <circle fill="red" cx="15" cy="5" r="1"/>
+    <circle fill="red" cx="5" cy="15" r="1"/>
+    <circle fill="red" cx="15" cy="25" r="1"/>
+    <circle fill="red" cx="25" cy="15" r="1"/>
+    <circle fill="red" cx="21" cy="9" r="1"/>
+    <circle fill="red" cx="21" cy="21" r="1"/>
+    <circle fill="red" cx="9" cy="21" r="1"/>
+    <circle fill="red" cx="9" cy="9" r="1"/>
+
+    <!-- corners on perimeter are in compound -->
+    <circle fill="green" cx="10" cy="10" r="1"/>
+    <circle fill="green" cx="20" cy="10" r="1"/>
+    <circle fill="green" cx="20" cy="20" r="1"/>
+    <circle fill="green" cx="10" cy="20" r="1"/>
+
+    <!-- center is in compound -->
+    <circle fill="green" cx="15" cy="15" r="1"/>
+
+    <!-- midpoints on perimeter are in compound -->
+    <circle fill="green" cx="10" cy="15" r="1"/>
+    <circle fill="green" cx="20" cy="15" r="1"/>
+    <circle fill="green" cx="15" cy="10" r="1"/>
+    <circle fill="green" cx="15" cy="20" r="1"/>
+</svg>

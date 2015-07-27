@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <path fill="lightblue" d="M14,9.722L67.891,23.929L109,9.564L109,58L67.894,37.383L14,58Z"/>
+
+    <path fill="orange" id="kindergarten" d="m60,10l10,0,l0,10l-10,0z"/>
+
+    <circle fill="red" cx="65.895" cy="46.402" r="1"/>
+    <circle fill="red" cx="32.06" cy="57.681" r="1"/>
+    <circle fill="red" cx="84.692" cy="56.929" r="1"/>
+    <circle fill="red" cx="62.135" cy="71.214" r="1"/>
+    <circle fill="red" cx="119.278" cy="39.635" r="1"/>
+    <circle fill="red" cx="77.925" cy="13.319" r="1"/>
+    <circle fill="red" cx="6.496" cy="33.62" r="1"/>
+    <circle fill="red" cx="39.579" cy="12.568" r="1"/>
+    <circle fill="red" cx="120.782" cy="9.56" r="1"/>
+    <circle fill="green" cx="20.031" cy="50.914" r="1"/>
+    <circle fill="green" cx="17.775" cy="17.079" r="1"/>
+    <circle fill="green" cx="29.805" cy="34.372" r="1"/>
+    <circle fill="green" cx="65.144" cy="32.869" r="1"/>
+    <circle fill="green" cx="102.737" cy="20.086" r="1"/>
+    <circle fill="green" cx="102.737" cy="48.658" r="1"/>
+    <circle fill="green" cx="89.204" cy="35.124" r="1"/>
+</svg>

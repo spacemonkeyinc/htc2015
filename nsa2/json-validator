@@ -1,0 +1,31 @@
+#!/usr/bin/python
+
+import os, sys, json, shutil, threading
+
+name = os.path.basename(sys.argv[0])
+if not name.endswith(".validator"):
+  sys.exit(1)
+test = name[:-len(".validator")]
+
+def stdin():
+  shutil.copyfileobj(
+    file(os.path.join(os.path.dirname(sys.argv[0]), "%s.in" % test)),
+    sys.stdout, 32768)
+  sys.stdout.flush()
+  os.close(1)
+
+t = threading.Thread(target=stdin)
+t.start()
+
+expected = file(os.path.join(
+    os.path.dirname(sys.argv[0]), "%s.out" % test)).read().strip()
+
+new_groups = []
+for group in json.loads(sys.stdin.read().strip()):
+  new_groups.append(tuple(sorted(group)))
+new_groups.sort()
+
+if expected != json.dumps(new_groups):
+  sys.exit(1)
+
+t.join()

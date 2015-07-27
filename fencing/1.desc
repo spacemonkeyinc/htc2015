@@ -1,0 +1,11 @@
+path is presented counterclockwise
+
+Can they:
+
+1. parse XML
+2. pick the right XML element (id=compund)
+3. correctly parse a <path> element with absolute and relative motion,
+   with spaces, without spaces, with integers, with reals
+4. can they detect points on the perimeter as being inside the compound
+   (usually the tests that see if a point is inside a polygon return
+   indeterminant results if the point is exactly on the perimeter)
