@@ -1,0 +1,36 @@
+[submodule "final/src/github.com/veandco/go-sdl2"]
+	path = final/src/github.com/veandco/go-sdl2
+	url = git@github.com:veandco/go-sdl2.git
+[submodule "final/src/github.com/jtolds/go-oauth2http"]
+	path = final/src/github.com/jtolds/go-oauth2http
+	url = git@github.com:jtolds/go-oauth2http.git
+[submodule "final/src/github.com/russross/blackfriday"]
+	path = final/src/github.com/russross/blackfriday
+	url = git@github.com:russross/blackfriday.git
+[submodule "final/src/github.com/spacemonkeygo/errors"]
+	path = final/src/github.com/spacemonkeygo/errors
+	url = git@github.com:spacemonkeygo/errors.git
+[submodule "final/src/github.com/spacemonkeygo/spacelog"]
+	path = final/src/github.com/spacemonkeygo/spacelog
+	url = git@github.com:spacemonkeygo/spacelog.git
+[submodule "final/src/github.com/shurcooL/sanitized_anchor_name"]
+	path = final/src/github.com/shurcooL/sanitized_anchor_name
+	url = git@github.com:shurcooL/sanitized_anchor_name.git
+[submodule "final/src/golang.org/x/net"]
+	path = final/src/golang.org/x/net
+	url = git@github.com:golang/net.git
+[submodule "final/src/github.com/spacemonkeygo/flagfile"]
+	path = final/src/github.com/spacemonkeygo/flagfile
+	url = git@github.com:spacemonkeygo/flagfile.git
+[submodule "final/src/gopkg.in/spacemonkeygo/monitor.v1"]
+	path = final/src/gopkg.in/spacemonkeygo/monitor.v1
+	url = git@github.com:spacemonkeygo/monitor.git
+[submodule "final/src/git.apache.org/thrift.git"]
+	path = final/src/git.apache.org/thrift.git
+	url = http://git.apache.org/thrift.git
+[submodule "final/src/github.com/spacemonkeygo/crc"]
+	path = final/src/github.com/spacemonkeygo/crc
+	url = git@github.com:spacemonkeygo/crc.git
+[submodule "final/src/github.com/spacemonkeygo/monotime"]
+	path = final/src/github.com/spacemonkeygo/monotime
+	url = git@github.com:spacemonkeygo/monotime.git
