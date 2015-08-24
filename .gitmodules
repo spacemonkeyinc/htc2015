@@ -34,3 +34,6 @@
 [submodule "final/src/github.com/spacemonkeygo/monotime"]
 	path = final/src/github.com/spacemonkeygo/monotime
 	url = git@github.com:spacemonkeygo/monotime.git
+[submodule "final/src/github.com/jteeuwen/go-bindata"]
+	path = final/src/github.com/jteeuwen/go-bindata
+	url = git@github.com:jteeuwen/go-bindata.git
