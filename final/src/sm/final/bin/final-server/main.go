@@ -45,7 +45,7 @@ func Main() error {
 			go func() {
 				err := sdl.BackgroundMusic("final/sounds/music1.wav")
 				if err != nil {
-					panic(err)
+					logger.Noticef("assets missing background music: %v", err)
 				}
 			}()
 		}
